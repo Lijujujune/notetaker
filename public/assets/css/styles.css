@@ -1,0 +1,72 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.list-container {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.list-group-item {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.list-item-title {
+  flex-grow: 1;
+  font-size: 1.25rem;
+}
+
+textarea,
+input[type='text'] {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #adb5bd;
+}
+
+.card {
+  background-color: #fff;
+}
+
+.card .list-group {
+  border: none;
+}
+
+.list-group-item:hover,
+.list-group-item:focus {
+  background-color: #f1f1f1;
+}
+
+.delete-note {
+  cursor: pointer;
+  color: #dc3545;
+}
+
+.note-title,
+.note-textarea {
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+.note-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.note-textarea {
+  height: calc(100vh - 150px);
+  font-size: 1.25rem;
+}
+
+.navbar {
+  background-color: #00b8d8;
+}
