@@ -1,1 +1,17 @@
-[]
+[
+  {
+    "id": "1b1420a2-b0b0-462f-aeff-b120401cbf28",
+    "title": "This is June's 1st note",
+    "text": "Remember to submit the week11 challenge"
+  },
+  {
+    "id": "ad250cf7-aad0-43a7-846a-a079fe40353b",
+    "title": "This is June's 2nd note",
+    "text": "Test test"
+  },
+  {
+    "id": "f1437ab4-6d00-4e95-a83c-669de6f23a7a",
+    "title": "This is June's 3rd note",
+    "text": "Test"
+  }
+]
